@@ -1,9 +1,54 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+{ "kurmiVersion": [
+  {
+      "idVersion": "7",
+      "type": "major",
+      "branches":
+      {
+          "branch":
+          [
+              {
+                  "id": "0",
+                  "release date": "22/10/2022",
+                  "end of support": "22/10/2023",
+                  "name": "aconga",
+                  "type": "minor",
+                  "bugfixes":
+                  {
+                      "bugfix":
+                      [
+                          {
+                              "id": "0",
+                              "release date": "22/10/2022"
+                          },
+                          {
+                              "id": "1",
+                              "release date": "30/10/2022"
+                          }
+                      ]
+                  }
+              },
+              {
+                  "id": "1",
+                  "release date": "22/11/2022",
+                  "end of support": "22/11/2023",
+                  "type": "minor",
+                  "bugfixes":
+                  {
+                      "bugfix":
+                      [
+                          {
+                              "id": "0",
+                              "release date": "22/10/2022"
+                          },
+                          {
+                              "id": "1",
+                              "release date": "30/10/2022"
+                          }
+                      ]
+                  }
+              }
+          ]
+      }
+  }
+  ]
 }
