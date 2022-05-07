@@ -1,0 +1,5 @@
+{ 
+    "/major/:idMajor/": "/major?idMajor=:idMajor",
+    "/minor/:minorVersion/": "/minor?minorVersion=:minorVersion",
+    "/sprint/:version/": "/sprint?version=:version"
+}
